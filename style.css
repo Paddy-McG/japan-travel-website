@@ -5,6 +5,8 @@
 
 body {
     background-color: crimson;
+    padding: 0px;
+    margin: 5px;
 }
 nav {
     padding: 5px;
@@ -34,4 +36,34 @@ nav {
     font-size: 60px;
     font-family: "HIROMISAKE", sans-serif;
     font-weight: 900;
+}
+.regBtn {
+    font-family: "HIROMISAKE", sans-serif;
+    border: 0px;
+    font-size: 35px;
+    background-color: white;
+}
+.regDropdown {
+    position: absolute;
+    width: 175px;
+    box-shadow: var(--shadow);
+    border-radius: var(--radius);
+    margin-top: 0.3rem;
+    background: white;
+    border-radius: 15px;
+}
+.regDropdown a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: var(--gap);
+    padding: 0.5rem 0rem;
+    text-decoration: none;
+    color: black;
+    font-family: "HIROMISAKE", sans-serif;
+}
+  
+.regDropdown a:hover {
+    background-color: var(--color);
+    color: white;
 }
