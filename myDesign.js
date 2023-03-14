@@ -1,19 +1,23 @@
-/*const dropdownBtn = document.getElementById("regBtn");
-const dropdownMenu = document.getElementById("regDropdown");
-const toggleArrow = document.getElementById("arrow");
-
-const toggleDropdown = function() {
-    dropdownMenu.classList.toggle("show");
-    toggleArrow.classList.toggle("arrow");
-};
-
-dropdownBtn.addEventListener("click", function(e) {
+window.onload = function() {
+  const dropdownBtn = document.getElementById("btn");
+ 
+  dropdownBtn.addEventListener("click", function (e) {
     e.stopPropagation();
     toggleDropdown();
-});
+  });
+}
+const body = document.getElementById("body");
+const dropdownMenu = document.getElementById("dropdown");
+const toggleArrow = document.getElementById("arrow");
 
-document.documentElement.addEventListener("click", function () {
-  if (dropdownMenu.classList.contains("show")) {
-    toggleDropdown();
+function toggleDropdown() {
+  dropdownMenu.classList.toggle("show");
+  toggleArrow.classList.toggle("arrow")
+};
+
+
+body.addEventListener("click", function () {
+  if(dropdownMenu.classList.contains("show")){
+  toggleDropdown();
   }
-});*/
+});

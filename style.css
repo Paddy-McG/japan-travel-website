@@ -37,13 +37,13 @@ nav {
     font-family: "HIROMISAKE", sans-serif;
     font-weight: 900;
 }
-.regBtn {
+.btn {
     font-family: "HIROMISAKE", sans-serif;
-    border: 0px;
+    border: 5px;
     font-size: 35px;
     background-color: white;
 }
-.regDropdown {
+.dropdown {
     position: absolute;
     width: 175px;
     box-shadow: var(--shadow);
@@ -51,8 +51,28 @@ nav {
     margin-top: 0.3rem;
     background: white;
     border-radius: 15px;
+
+    transform: translateY(0.5rem);
+    visibility: hidden;
+    opacity: 0;
 }
-.regDropdown a {
+
+div.show {
+    transform: translateY(0rem);
+    visibility: visible;
+    opacity: 1;
+}
+#arrow {
+    transform: rotate(360);
+    transition: 0.2s ease;
+}
+
+.arrow {
+    transform: rotate(180deg);
+    transition: 0.2s ease;
+}
+
+.dropdown a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,7 +83,9 @@ nav {
     font-family: "HIROMISAKE", sans-serif;
 }
   
-.regDropdown a:hover {
+.dropdown a:hover {
     background-color: var(--color);
     color: white;
+    background-color: #cd3932;
+    font-size: 20px;
 }

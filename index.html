@@ -6,9 +6,9 @@
         <link rel="icon" type="image/x-icon" href="./images/carp.ico">
         <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
-        <script type="text/javascript" src="myDesign.js"></script>
+
     </head>
-    <body>
+    <body id="body">
         <nav>
             <div class="nav-left">
                 <img class="logo-img" src="./images/carp.png">
@@ -16,11 +16,11 @@
             </div>
             <div class="nav-right">
                 <div>
-                    <button class="regBtn" id="regBtn">
+                    <div class="btn" id="btn">
                         Regions
                         <i class="bx bx-chevron-down" id="arrow"></i>
-                    </button>
-                    <div class="regDropdown" id="regDropdown">
+                    </div>
+                    <div class="dropdown" class="show" id="dropdown">
                         <a class="dropped" href="">
                             Hokkaido
                         </a>
@@ -43,7 +43,7 @@
                             Shikoko
                         </a>
                         <a class="dropped" href="">
-                            Kyushu & Okinawa
+                            Kyushu/Okinawa
                         </a>
                     </div>
                 </div>    
@@ -51,5 +51,6 @@
                 <div></div>
             </div>
         </nav>
+        <script type="text/javascript" src="myDesign.js"></script>
     </body>
 </html>
