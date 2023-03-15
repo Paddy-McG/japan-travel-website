@@ -1,91 +1,93 @@
 @font-face {
     font-family: 'HIROMISAKE';
-    src: url(fonts/HIROMISAKE.ttf);
-}
-
+    src: url(fonts/HIROMISAKE.ttf);}
 body {
-    background-color: crimson;
     padding: 0px;
     margin: 5px;
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background: linear-gradient(#ffffff 0px, #cd3932 300px);}
 nav {
+    margin: 2px 10px 10px 10px;
     padding: 5px;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 20px;
     height: 80px;
+    align-self: stretch;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: white;
-}
+    color: #000000;}
 .nav-left {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    gap: 10px;
-}
+    gap: 10px;}
 .nav-right {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    list-style: none;
-}
+    list-style: none;}
 .logo {
     font-size: 60px;
     font-family: "HIROMISAKE", sans-serif;
-    font-weight: 900;
-}
+    font-weight: 900;}
 .btn {
     font-family: "HIROMISAKE", sans-serif;
     border: 5px;
     font-size: 35px;
     background-color: white;
-}
+    cursor: pointer;}
 .dropdown {
     position: absolute;
     width: 175px;
     box-shadow: var(--shadow);
-    border-radius: var(--radius);
     margin-top: 0.3rem;
     background: white;
-    border-radius: 15px;
-
+    border-radius: 12px;
+    border: 2px #000000 solid;
     transform: translateY(0.5rem);
     visibility: hidden;
-    opacity: 0;
-}
-
+    opacity: 0;}
 div.show {
     transform: translateY(0rem);
     visibility: visible;
-    opacity: 1;
-}
+    opacity: 1;}
 #arrow {
     transform: rotate(360);
-    transition: 0.2s ease;
-}
-
+    transition: 0.2s ease;}
 .arrow {
     transform: rotate(180deg);
-    transition: 0.2s ease;
-}
-
+    transition: 0.2s ease;}
 .dropdown a {
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: var(--gap);
-    padding: 0.5rem 0rem;
-    text-decoration: none;
-    color: black;
     font-family: "HIROMISAKE", sans-serif;
-}
-  
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0.5rem 0rem;
+    border-radius: 10px;}
 .dropdown a:hover {
-    background-color: var(--color);
     color: white;
     background-color: #cd3932;
-    font-size: 20px;
+    border-radius: 10px;}
+.mainImg {
+    margin: 15px 0px 15px 0px;}
+header {
+    font-family: "HIROMISAKE", sans-serif;
+    font-size: 30px;}
+.hisArt {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+    padding: 10px;
 }
