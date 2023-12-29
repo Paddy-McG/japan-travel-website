@@ -10,6 +10,11 @@ body {
     align-items: center;
     color: #ffffff;
     background: linear-gradient(#cd3932  0px, #ffffff 300px);}
+a { text-decoration-color: white;}
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
 nav {
     margin: 2px 10px 10px 10px;
     padding: 5px;
@@ -91,7 +96,8 @@ header {
     border-radius: 10px;
     padding: 10px;}
 .regtitle {
-    font-family: "HIROMISAKE", sans-serif;}
+    font-family: "HIROMISAKE", sans-serif;
+    margin: 10px 0px 10px 0px;}
 .region {
     color: #000000;
     display: flex;
@@ -103,5 +109,46 @@ header {
     margin: 25px 350px 10px 350px;}
 
 .hokkaido{
-    background-image: ;
+    display: flex;
+    border: 4px #000000 groove;
+    border-radius: 25px;
+    padding: 10px 25px 20px 25px;
+    flex-direction: column;
+    gap: 20px;}
+
+.regionImageHokkaido{
+    display: flex;
+    gap: 35px;
+    transition: all ease-in-out 350ms;
+    align-items: center;
 }
+.Hok{
+    position: relative;
+    width: 450px;
+    height: 250px;}
+
+.HokImg{
+    border:2px #777272 solid;
+    border-radius: 50px;
+    width: 450px;
+    height: 250px;}
+
+.HokTxt{
+    opacity: 0;
+    align-items: center;
+    position: absolute;
+    bottom: 100px;
+    left: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 1px;
+    font-size: 40px;}
+
+.Hok:hover .HokImg{
+    filter: blur(2px);
+}
+.Hok:hover .HokTxt
+{
+    opacity: 1;}
+
