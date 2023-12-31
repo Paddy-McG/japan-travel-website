@@ -24,3 +24,7 @@ Photo by <a href="https://unsplash.com/de/@_______life_?utm_source=unsplash&utm_
 
   Tsuruga-jo (Aizu-Wakamatsu) Castle Photo by <a href="https://unsplash.com/@thirdcultureken?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kentaro Toma</a> on <a href="https://unsplash.com/photos/white-and-black-concrete-building-on-green-grass-field-under-gray-sky-during-daytime-F20sNeLqPow?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
   
+  ginzan onsen Photo by <a href="https://unsplash.com/@shinonk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Shino</a> on <a href="https://unsplash.com/photos/a-river-running-through-a-city-at-night-pJo37y5bb7I?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
+  neputa festival Photo by <a href="https://unsplash.com/@seiya_maeda?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Seiya Maeda</a> on <a href="https://unsplash.com/photos/a-dragon-and-dragon-head-lit-up-at-night-bS8vMkDfYmQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
